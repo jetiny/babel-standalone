@@ -1,6 +1,8 @@
 language: node_js
 node_js:
-  - "stable"
-script:
-  - ./node_modules/.bin/gulp build
-  - npm test
+- stable
+deploy:
+  provider: npm
+  email: 86287344@qq.com
+  api_key:
+    secure: jcpDmDlkJzTAa46ibXoNGd+XghZmX9UIFHjT40/ZIjosWRvfMgE2Qm6vWs4ubJ7qb0Q7Zh1ylC73Sf2zEckabxaCZqlxqO5NapjRbE+1dpzXxP7jvh51uGX7kMW+LvWzZBm6AB+0jR/RDG+knlcCBrQvTacdb1bXJe8Vz5IwqUU6/LZh9cAlCkTLL+EeZtfmnODb+YyZhjP3Y1J2JtGv4xAGDk/9NSgtTczL+YxQLBB/pDUUy6n3uzNXJdcd/oLs2qz7vkmpTrh7npnXWb2M9w2WxyJdgJ5vZ+TQ7VSdjKUe9fM5TlbS5zvtsSVe9qn8iLgc0JkIaQ4DaKEMrbI6LtKJ8ynPRC1XCpVYa3Y8GZgcK1SMnA7p52+ShiKye6dEFizcaFZw5Z59VoOUN5RnOvyYIxI8e/nTIQrkQpDkGkPMu/95KActfocfGlxROIPKjxAfJLtvRu+c1FWF6GGVlYUWUx3hZ9BPBHjBjCf+BhZDgD2vjuqADW78PUrZ+AuvnmzqLDA2zI1mafaAmfqyynGP8kSOFWhlQANkoh3N//bBu9cSQNfLWVOqiZhO3iKeNTMz79iv7cgg9pKjZs+bwCP9JZiIs9zkQye1Q5iFTnZnmyTHGJkVdsXVwSaq5Gw4uWx6Jt1f1NlgmbyoiriR4VjusDEvNcZosNJOBk+aT+g=

@@ -1,11 +1,11 @@
 {
-  "name": "babel-standalone",
+  "name": "babel-standalone-rollup",
   "version": "6.24.2",
   "description": "Standalone build of Babel for use in non-Node.js environments. Similar to the (now deprecated) babel-browser",
   "main": "babel.js",
   "scripts": {
     "build": "gulp build",
-    "test": "jest"
+    "test": "gulp build"
   },
   "files": [
     "babel.js",
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Daniel15/babel-standalone.git"
+    "url": "git+https://github.com/jetiny/babel-standalone-rollup.git"
   },
   "devDependencies": {
     "babel-core": "6.24.1",
@@ -145,7 +145,7 @@
   "author": "Daniel Lo Nigro \u003cdaniel@dan.cx\u003e (http://dan.cx/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Daniel15/babel-standalone/issues"
+    "url": "https://github.com/jetiny/babel-standalone-rollup/issues"
   },
-  "homepage": "https://github.com/Daniel15/babel-standalone#readme"
+  "homepage": "https://github.com/jetiny/babel-standalone-rollup#readme"
 }
